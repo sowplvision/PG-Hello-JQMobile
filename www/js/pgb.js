@@ -18,3 +18,10 @@ function deviceInfo() {
 
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
+
+function interests(){
+	interest = 	'Jestem zainteresowany programowaniem' + 
+				'głównie takimi językami jak: <br>' +
+				'Java <br> SQL <br> PHP <br> JS';
+	document.getElementById("interests").innerHTML = interest;
+}
