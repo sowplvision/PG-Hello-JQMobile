@@ -20,6 +20,7 @@
 			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
 			<a href="#secondPage" class="ui-btn">GUI</a>
 			<a href="#thirdPage" class="ui-btn">Business Card</a>
+			<a href="#popupSydney" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="img/debug.jpg" alt="Debug" style="width:30%"></a>
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) John Brown</h1>
@@ -54,6 +55,10 @@
 			<h1>Daniel Kucharczyk</h1>
 		  </div>
 		</div>
+		
+		<div data-role="popup" id="popupSydney" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="img/debug.jpg" style="max-height:512px;" alt="Sydney, Australia">
+</div>
 		
 		<!-- Mobile device details page -->
 		<div data-role="page" id="details" data-dialog="true">
